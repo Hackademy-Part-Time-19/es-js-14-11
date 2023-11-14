@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    
+</head>
+<body>
+    
+     <script>
+
+        var pane = 80;
+        var latte = 60;
+        var uova = 50;
+
+        alert("Benvenuto alla Conad")
+
+        let oggetto = prompt("Quale tipo di oggetto desideri acquistare?" + "\n" + "A = Pane" + "\n" + "B = Latte" + "\n" + "C = Uova")
+
+        let importo = parseInt(prompt("Quanti ne desideri acquistare?"))
+
+        if (oggetto == "A") {
+
+            if (importo <= pane) {
+
+                pane - importo
+                alert("Hai acquistato " + importo + " del seguente prodotto: pane")
+                 
+            }   else if (importo > pane) {
+
+                alert("La quantità richiesta dell'oggetto non è disponibile") 
+
+            }
+
+
+        }   else if (oggetto == "B"){
+
+            if (importo <= latte) {
+
+                latte - importo
+                alert("Hai acquistato " + importo + " del seguente prodotto: latte") 
+            }   else if (importo > latte) {
+
+                alert("La quantità richiesta dell'oggetto non è disponibile") 
+
+            }
+
+
+
+        }   else if (oggetto == "C"){
+
+            if (importo <= uova) {
+
+                uova - importo
+                alert("Hai acquistato " + importo + " del seguente prodotto: uova") 
+            } 
+
+
+        }
+       
+    </script>
+    
+</body>
+</html>
