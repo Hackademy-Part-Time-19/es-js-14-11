@@ -58,7 +58,7 @@ var maglietta_C = 30;
     
 //}
 
-//GestioneMagazzino("A",74,"1")
+
 
 
 
